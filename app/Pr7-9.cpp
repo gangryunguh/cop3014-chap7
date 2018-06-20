@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
    const int SIZE = 3;  // Constant for the array size
-   int values[SIZE];    // An array of 3 integers
+   int values[3];    // An array of 3 integers
    int count;           // Loop counter variable
 
    // Attempt to store five numbers in the three-element array.
