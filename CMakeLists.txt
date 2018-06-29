@@ -13,7 +13,7 @@ set(SOURCE_FILES app/Pr7-1.cpp app/Pr7-2.cpp app/Pr7-3.cpp
         app/Pr7-26.cpp app/Pr7-27.cpp app/Pr7-28.cpp
         app/Pr7-29.cpp app/Pr7-30.cpp app/Pr7-31.cpp)
 
-add_executable(Pr7-1.exe app/Pr7-1.cpp app/Pr7-9-revised.cpp)
+add_executable(Pr7-1.exe app/Pr7-1.cpp )
 add_executable(Pr7-2.exe app/Pr7-2.cpp)
 add_executable(Pr7-3.exe app/Pr7-3.cpp)
 add_executable(Pr7-4.exe app/Pr7-4.cpp)
@@ -31,6 +31,7 @@ add_executable(Pr7-14.exe app/Pr7-14.cpp)
 add_executable(Pr7-15.exe app/Pr7-15.cpp)
 add_executable(Pr7-16.exe app/Pr7-16.cpp)
 add_executable(Pr7-17.exe app/Pr7-17.cpp)
+add_executable(Pr7-17-reference.exe app/Pr-7-17-reference.cpp)
 add_executable(Pr7-18.exe app/Pr7-18.cpp)
 add_executable(Pr7-19.exe app/Pr7-19.cpp)
 add_executable(Pr7-20.exe app/Pr7-20.cpp)

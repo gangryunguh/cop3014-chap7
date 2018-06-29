@@ -8,7 +8,7 @@ int main()
    int numbers[] = { 10, 20, 30, 40, 50 };
 
    // Display the values in the array.
-   for (auto val : numbers)
+   for (int val : numbers)
       cout << val << endl;
 
    return 0;

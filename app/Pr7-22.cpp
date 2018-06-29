@@ -1,4 +1,5 @@
 // This program demonstrates accepting a 2D array argument.
+// - revised by Gang-Ryung Uh
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -21,9 +22,9 @@ int main()
                                   {130, 140, 150, 160}};
                                   
    cout << "The contents of table1 are:\n";
-   showArray(table1, TBL1_ROWS);
+   showArray((const int[][COLS])table1, TBL1_ROWS);
    cout << "The contents of table2 are:\n";
-   showArray(table2, TBL2_ROWS);
+   showArray((const int[][COLS])table2, TBL2_ROWS);
    return 0;
 }
 

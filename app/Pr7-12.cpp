@@ -9,7 +9,7 @@ int main()
    int numbers[5];
 
    // Get values for the array.
-   for (auto &val : numbers)
+   for (int &val : numbers)
    {
       cout << "Enter an integer value: ";
       cin >> val;
