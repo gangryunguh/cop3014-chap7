@@ -10,8 +10,10 @@ int main()
    cout << "The values vector has "
         << values.size() << " elements.\n";
    cout << "I will call the clear member function...\n";
-   values.clear();
-   cout << "Now, the values vector has "
-        << values.size() << " elements.\n";
+
+   // Clear the vector values and determine whether the size of vector is 0
+
+
+
    return 0;
 }

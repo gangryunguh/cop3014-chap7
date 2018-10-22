@@ -8,9 +8,11 @@ int main()
    // Define and initialize a vector.
    vector<int> numbers { 10, 20, 30, 40, 50 };
 
-   // Display the vector elements.
-   for (int val : numbers)
-      cout << val << endl;
+   // Display the vector elements - range-based for loop also works with
+   // a vector.
+
+
+
 
    return 0;
 }

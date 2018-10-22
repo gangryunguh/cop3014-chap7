@@ -33,16 +33,6 @@ int main()
 // The first argument is a two-dimensional int array with COLS    *
 // columns. The second argument, rows, specifies the number of    *
 // rows in the array. The function displays the array's contents. *
+// - print each value with the width of 4 characters              *
 //*****************************************************************
 
-void showArray(const int array[][COLS], int rows)
-{
-   for (int x = 0; x < rows; x++)
-   {
-      for (int y = 0; y < COLS; y++)
-      {
-         cout << setw(4) << array[x][y] << " ";
-      }
-      cout << endl;
-   }
-}

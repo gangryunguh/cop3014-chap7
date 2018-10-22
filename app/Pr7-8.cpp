@@ -13,17 +13,19 @@ int main()
    // Store values in the array.
    for (count = 0; count < ARRAY_SIZE; count++)
       numbers[count] = count;
-      
-   // Open a file for output.
-   outputFile.open("SavedNumbers.txt");
+
+   // Open a file for output - SavedNumbers.txt.
+
    
    // Write the array contents to the file.
-   for (count = 0; count < ARRAY_SIZE; count++)
-      outputFile << numbers[count] << endl;
-   
+
+
+
    // Close the file.
-   outputFile.close();
-   
+
+
+
+
    // That's it!
    cout << "The numbers were saved to the file.\n ";
    return 0;

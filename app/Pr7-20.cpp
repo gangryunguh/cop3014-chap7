@@ -50,19 +50,11 @@ int main()
 // which are stored in the array.                            *
 //************************************************************
 
-void getTestScores(double scores[], int size)
-{
-   // Loop counter
-   int index;
-   
-   // Get each test score.
-   for(index = 0; index <= size - 1; index++)
-   {
-      cout << "Enter test score number " 
-           << (index + 1) << ": ";
-      cin >> scores[index];
-   }
-}
+
+
+
+
+
 
 //****************************************************
 // The getTotal function accepts a double array      *
@@ -70,17 +62,11 @@ void getTestScores(double scores[], int size)
 // elements is returned as a double.                 *
 //****************************************************
 
-double getTotal(const double array[], int size)
-{
-   double total = 0; // Accumulator
 
-   // Add each element to total.
-   for (int count = 0; count < size; count++)
-      total += array[count];
 
-   // Return the total.
-   return total;
-}
+
+
+
 
 //****************************************************
 // The getLowest function accepts a double array and *
@@ -88,22 +74,4 @@ double getTotal(const double array[], int size)
 // array is returned as a double.                    *
 //****************************************************
 
-double getLowest(const double array[], int size)
-{
-   double lowest;  // To hold the lowest value
 
-   // Get the first array's first element.
-   lowest = array[0];
-
-   // Step through the rest of the array. When a
-   // value less than lowest is found, assign it
-   // to lowest.
-   for (int count = 1; count < size; count++)
-   {
-      if (array[count] < lowest)
-         lowest = array[count];
-   }
-
-   // Return the lowest value.
-   return lowest;
-}

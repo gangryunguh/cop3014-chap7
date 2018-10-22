@@ -11,9 +11,13 @@ int main()
    
    cout << "Here are the planets:\n";
 
-   // Display the values in the array.
-   for (auto val : planets)
-      cout << val << endl;
+   // Display the values in the array using range-based for loop without
+   // type specification.
+
+
+
+
+
 
    return 0;
 }

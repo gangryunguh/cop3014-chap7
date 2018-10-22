@@ -12,10 +12,15 @@ int main()
 
    cout << "Character" << "\t" << "ASCII Code\n";
    cout << "---------" << "\t" << "----------\n";
-   for (int count = 0; count < NUM_LETTERS; count++)
-   {
-      cout << letters[count] << "\t\t";
-      cout << static_cast<int>(letters[count]) << endl;
-   }
+
+   // Print a letter in letters array and its corresponding ASCII code value
+   //     using a loop
+
+
+
+
+
+
+
    return 0;
 }

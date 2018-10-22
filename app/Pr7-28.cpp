@@ -26,9 +26,3 @@ int main()
 // argument. The value of each of the vector's     *
 // elements is displayed.                          *
 //**************************************************
-
-void showValues(vector<int> vect)
-{
-   for (int count = 0; count < vect.size(); count++)
-      cout << vect[count] << endl;
-}

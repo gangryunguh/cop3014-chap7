@@ -13,19 +13,10 @@ int main()
    values.push_back(3);
    cout << "The size of values is " << values.size() << endl;
    
-   // Remove a value from the vector.
-   cout << "Popping a value from the vector...\n";
-   values.pop_back();
-   cout << "The size of values is now " << values.size() << endl;
-   
-   // Now remove another value from the vector.
-   cout << "Popping a value from the vector...\n";
-   values.pop_back();
-   cout << "The size of values is now " << values.size() << endl;
-   
-   // Remove the last value from the vector.
-   cout << "Popping a value from the vector...\n";
-   values.pop_back();
-   cout << "The size of values is now " << values.size() << endl;
+   // Remove a value from the end of the vector values and print
+   // the content
+
+
+
    return 0;
 }

@@ -20,9 +20,4 @@ int main()
 // of the array are displayed.                     * 
 //**************************************************
 
-void showValues(int nums[], int size)
-{
-   for (int index = 0; index < size; index++)
-      cout << nums[index] << " ";
-   cout << endl;
-}
+

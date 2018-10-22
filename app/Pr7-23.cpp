@@ -37,12 +37,3 @@ int main ()
 // If the contain different values, false is returned.             *
 //******************************************************************
 
-bool testPIN(const int custPIN[], const int databasePIN[], int size)
-{
-   for (int index = 0; index < size; index++)
-   {
-      if (custPIN[index] != databasePIN[index])
-         return false; // We've found two different values.
-   }
-   return true; // If we make it this far, the values are the same.
-}

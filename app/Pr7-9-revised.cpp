@@ -1,5 +1,5 @@
 //
-// Created by Gang-Ryung Uh on 6/20/18.
+// Created by Gang-Ryung Uh to highlight the problem of stack overflow.
 //
 #include <iostream>
 using namespace std;

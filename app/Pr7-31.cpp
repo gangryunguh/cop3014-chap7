@@ -38,22 +38,3 @@ int main()
 // average of those values. Otherwise, an error message is    *
 // displayed and the function returns 0.0.                    *
 //*************************************************************
-
-double avgVector(vector<int> vect)
-{
-   int total = 0;    // accumulator
-   double avg;       // average
-
-   if (vect.empty()) // Determine if the vector is empty
-   {
-      cout << "No values to average.\n";
-      avg = 0.0;
-   }
-   else
-   {
-      for (int count = 0; count < vect.size(); count++)
-         total += vect[count];
-      avg = total / vect.size();
-   }
-   return avg;
-}

@@ -27,11 +27,17 @@ int main()
       cout << "Hours worked by employee #" << (index + 1);
       cout << ": ";
       cin >> tempHours;
-      hours.push_back(tempHours);      // Add an element to hours
+
+      // put the tempHours at the end of the vector hours
+
+
       cout << "Hourly pay rate for employee #";
       cout << (index + 1) << ": ";
       cin >> tempRate;
-      payRate.push_back(tempRate);  // Add an element to payRate
+
+      // put the tempRate at the end of the vector pyRate
+
+
    }
 
    // Display each employee's gross pay.

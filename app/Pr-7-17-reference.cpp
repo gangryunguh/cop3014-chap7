@@ -24,9 +24,3 @@ int main()
 // of the array are displayed.                     *
 //**************************************************
 
-void showValues(int (&nums)[8])
-{
-    for (int index = 0; index < 8; index++)
-        cout << nums[index] << " ";
-    cout << endl;
-}

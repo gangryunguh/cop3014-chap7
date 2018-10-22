@@ -8,8 +8,14 @@ int main()
    int numbers[SIZE] = {1, 2, 4, 8}; // Initialize first 4 elements
 
    cout << "Here are the contents of the array:\n";
-   for (int index = 0; index < SIZE; index++)
-      cout << numbers[index] << " ";
+
+   // print a partially initialized array and make sure the remaining
+   // elements being set to 0
+
+
+
+
+
 
    cout << endl;
    return 0;

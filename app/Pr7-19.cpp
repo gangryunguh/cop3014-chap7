@@ -33,11 +33,11 @@ int main()
 // into size is the number of elements in the array.  *
 //*****************************************************
 
-void doubleArray(int nums[], int size)
-{
-   for (int index = 0; index < size; index++)
-      nums[index] *= 2;
-}
+
+
+
+
+
 
 //**************************************************
 // Definition of function showValues.              *
@@ -46,9 +46,3 @@ void doubleArray(int nums[], int size)
 // of the array are displayed.                     * 
 //**************************************************
 
-void showValues(int nums[], int size)
-{
-   for (int index = 0; index < size; index++)
-      cout << nums[index] << " ";
-   cout << endl;
-}

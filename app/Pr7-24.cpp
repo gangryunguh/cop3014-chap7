@@ -15,8 +15,11 @@ int main()
    // Input the data.
    cout << "Enter the hours worked by " << NUM_EMPLOYEES;
    cout << " employees and their hourly rates.\n";
-   hours.resize(10);
-   payRate.resize(10);
+
+   // double (increase) the size of hours and payRate vectors
+
+
+
    for (index = 0; index < NUM_EMPLOYEES+5; index++)
    {
       cout << "Hours worked by employee #" << (index + 1);
@@ -28,9 +31,13 @@ int main()
    }
 
    vector<int> hours2;      // A vector of integers
-   hours2 = hours;
 
-   //cout << hours.at(11);
+   // copy the vector hours to the vector hours2
+
+
+
+
+
    // Display each employee's gross pay.
    cout << "\nHere is the gross pay for each employee:\n";
    cout << fixed << showpoint << setprecision(2);

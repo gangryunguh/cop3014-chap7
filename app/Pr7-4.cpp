@@ -12,7 +12,14 @@ int main()
 
    cout << "Here are the planets:\n";
 
-   for (int count = 0; count < SIZE; count++)
-      cout << planets[count] << endl;
+   // Print all the planets
+   //    3 planets per line
+
+
+
+
+
+
+
    return 0;
 }

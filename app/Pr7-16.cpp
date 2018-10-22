@@ -21,7 +21,3 @@ int main()
 // The value of the argument is displayed.     *
 //**********************************************
 
-void showValue(int num)
-{
-   cout << num << " ";
-}

@@ -24,12 +24,13 @@ int main()
    
    // Display each employee's gross pay.
    cout << "Here is the gross pay for each employee:\n";
-   cout << fixed << showpoint << setprecision(2);
-   for (int index = 0; index < NUM_EMPLOYEES; index++)
-   {
-      double grossPay = hours[index] * payRate[index];
-      cout << "Employee #" << (index + 1);
-      cout << ": $" << grossPay << endl;
-   }
+
+
+
+
+
+
+
+
    return 0;
 }

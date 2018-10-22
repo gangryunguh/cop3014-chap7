@@ -9,11 +9,12 @@ int main()
    vector<int> numbers(5);
 
    // Get values for the vector elements.
-   for (int &val : numbers)
-   {
-      cout << "Enter an integer value: ";
-      cin >> val;
-   }
+   //   - set the integer values read from the keyboard to each
+   //     vector element using range-based for loop with
+   //     the type specification int &
+
+
+
 
    // Display the vector elements.
    cout << "Here are the values that you entered:\n";

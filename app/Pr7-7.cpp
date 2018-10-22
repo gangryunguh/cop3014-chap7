@@ -10,20 +10,20 @@ int main()
 	int count = 0;             // Loop counter variable
 	ifstream inputFile;        // Input file stream object
 	
-	// Open the file.
-	inputFile.open("TenNumbers.txt"); 
+	// Open the input file - TenNumbers.txt.
+
 	
 	// Read the numbers from the file into the array.
-	while (count < ARRAY_SIZE && inputFile >> numbers[count])
-       count++;
-	
+
+
 	// Close the file.
 	inputFile.close();
 	
+
 	// Display the numbers read:
 	cout << "The numbers are: ";
-	for (count = 0; count < ARRAY_SIZE; count++)
-       cout << numbers[count] << " ";
-	cout << endl;
+
+
+
 	return 0;
 }
